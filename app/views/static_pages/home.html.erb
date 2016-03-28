@@ -5,11 +5,14 @@
          <title><%= yield(:title) %>|Social Network</title>
     </head>
     <body>
+      <div class="center jumbotron">
         <h1>THE MOST AWESOME SOCIAL NETWORK IN THE PLANET</h1>
-        <p>
+        <h2>
             This is the social network we are creating in the course of RoR at
             <a href="http://www.bonevet.org/">BONEVET.</a>
-        </p>
+        </h2>
+        <%=link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+      </div>
     </body>
 </html>
 
